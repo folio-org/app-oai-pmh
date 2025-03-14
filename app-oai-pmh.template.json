@@ -12,17 +12,17 @@
     "modules": [
       {
         "name": "mod-oai-pmh",
-        "version": "latest"
+        "version": "3.15.0"
       },
       {
         "name": "edge-oai-pmh",
-        "version": "latest"
+        "version": "2.11.0"
       }
     ],
     "uiModules": [
       {
         "name": "folio_oai-pmh",
-        "version": "latest"
+        "version": "6.0.0"
       }
     ]
   }
