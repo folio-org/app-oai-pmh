@@ -1,6 +1,6 @@
 {
   "name": "app-oai-pmh",
-  "version": "1.2.0-SNAPSHOT.100100000000710",
+  "version": "1.2.0-SNAPSHOT.100100000000720",
   "description": "Application descriptor for the FOLIO OAI-PMH application",
   "platform": "complete",
   "dependencies": [
@@ -16,7 +16,7 @@
     },
     {
       "name": "edge-oai-pmh",
-      "version": "2.12.0-SNAPSHOT.121"
+      "version": "2.12.0-SNAPSHOT.122"
     }
   ],
   "uiModules": [
