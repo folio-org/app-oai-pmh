@@ -1,0 +1,32 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-platform-complete",
+      "version": "^2.1.0",
+      "preRelease": "false"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-oai-pmh",
+      "version": "latest",
+      "preRelease": "false"
+    },
+    {
+      "name": "edge-oai-pmh",
+      "version": "latest",
+      "preRelease": "false"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "folio_oai-pmh",
+      "version": "latest",
+      "preRelease": "false"
+    }
+  ]
+}
