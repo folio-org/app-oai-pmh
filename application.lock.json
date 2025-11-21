@@ -1,6 +1,6 @@
 {
   "name": "app-oai-pmh",
-  "version": "1.2.0-SNAPSHOT.100200000001074",
+  "version": "1.2.0-SNAPSHOT.100200000001085",
   "description": "Application descriptor for the FOLIO OAI-PMH application",
   "platform": "complete",
   "dependencies": [
@@ -22,7 +22,7 @@
   "uiModules": [
     {
       "name": "folio_oai-pmh",
-      "version": "7.0.1099000000000114"
+      "version": "7.0.1099000000000118"
     }
   ]
 }
