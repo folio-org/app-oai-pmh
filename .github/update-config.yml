@@ -12,10 +12,6 @@ branches:
       need_pr: false
       pre_release: "only"
       descriptor_build_offset: "100200000000000"
-  - R1-2025:
-      enabled: true
-      need_pr: true
-      preRelease: "false"
 #  - R2-2024:
 #      enable: false
 #      need_pr: true
