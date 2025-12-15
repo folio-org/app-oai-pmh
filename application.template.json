@@ -6,31 +6,26 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^VERSION",
-      "preRelease": "false"
-    },
-    {
-      "name": "app-marc-storage",
-      "version": "^VERSION",
+      "version": "^3.0.0",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-oai-pmh",
-      "version": "^VERSION",
+      "version": "^3.0.0",
       "preRelease": "false"
     },
     {
       "name": "edge-oai-pmh",
-      "version": "^VERSION",
+      "version": "^2.0.0",
       "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_oai-pmh",
-      "version": "^VERSION",
+      "version": "^6.0.0",
       "preRelease": "false"
     }
   ]
