@@ -1,28 +1,27 @@
 {
-    "name": "${project.name}",
-    "version": "${project.version}",
-    "description": "${project.description}",
-    "platform": "complete",
-    "dependencies": [
-      {
-        "name": "app-platform-complete",
-        "version": "^2.1.0"
-      }
-    ],
-    "modules": [
-      {
-        "name": "mod-oai-pmh",
-        "version": "latest"
-      },
-      {
-        "name": "edge-oai-pmh",
-        "version": "latest"
-      }
-    ],
-    "uiModules": [
-      {
-        "name": "folio_oai-pmh",
-        "version": "latest"
-      }
-    ]
-  }
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [  {
+    "name": "app-platform-complete",
+    "version": "^2.1.0"
+  }],
+  "modules":   [
+        {
+      "name": "mod-oai-pmh",
+      "version": "3.15.4",
+      "url": "https://mdr-folio-eis-us-east-1-dev.s3.amazonaws.com/mod-oai-pmh-3.15.4"
+    },
+        {
+      "name": "edge-oai-pmh",
+      "version": "2.11.0",
+      "url": null
+    }
+  ],
+  "uiModules": [  {
+    "name": "folio_oai-pmh",
+    "version": "6.0.0",
+    "url": null
+  }]
+}
