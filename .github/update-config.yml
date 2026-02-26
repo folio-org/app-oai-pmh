@@ -31,7 +31,3 @@ branches:
       descriptor_build_offset: "100200000000000"
       ruleset:
         enabled: false
-  - R1-2025:
-      enabled: true
-      need_pr: true
-      preRelease: "false"
