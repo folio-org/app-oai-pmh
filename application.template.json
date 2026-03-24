@@ -6,26 +6,26 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^2.1.0",
+      "version": "^VERSION_^2.1.0",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-oai-pmh",
-      "version": "latest",
+      "version": "^VERSION_latest",
       "preRelease": "false"
     },
     {
       "name": "edge-oai-pmh",
-      "version": "latest",
+      "version": "^VERSION_latest",
       "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_oai-pmh",
-      "version": "latest",
+      "version": "^VERSION_latest",
       "preRelease": "false"
     }
   ]
