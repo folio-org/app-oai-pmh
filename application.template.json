@@ -1,42 +1,42 @@
 {
-    "name": "${project.name}",
-    "version": "${project.version}",
-    "description": "${project.description}",
-    "platform": "complete",
-    "dependencies": [
-      {
-        "name": "app-platform-minimal",
-        "version": "^2.1.0-SNAPSHOT",
-        "preRelease": "only"
-      },
-      {
-        "name": "app-marc-storage",
-        "version": "^1.0.0-SNAPSHOT",
-        "preRelease": "only"
-      },
-      {
-        "name": "app-inventory",
-        "version": "^1.0.0-SNAPSHOT",
-        "preRelease": "only"
-      }
-    ],
-    "modules": [
-      {
-        "name": "mod-oai-pmh",
-        "version": "latest",
-        "preRelease": "only"
-      },
-      {
-        "name": "edge-oai-pmh",
-        "version": "latest",
-        "preRelease": "only"
-      }
-    ],
-    "uiModules": [
-      {
-        "name": "folio_oai-pmh",
-        "version": "latest",
-        "preRelease": "only"
-      }
-    ]
-  }
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-platform-minimal",
+      "version": "^VERSION_^2.1.0-SNAPSHOT",
+      "preRelease": "false"
+    },
+    {
+      "name": "app-marc-storage",
+      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "preRelease": "false"
+    },
+    {
+      "name": "app-inventory",
+      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "preRelease": "false"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-oai-pmh",
+      "version": "^VERSION_latest",
+      "preRelease": "false"
+    },
+    {
+      "name": "edge-oai-pmh",
+      "version": "^VERSION_latest",
+      "preRelease": "false"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "folio_oai-pmh",
+      "version": "^VERSION_latest",
+      "preRelease": "false"
+    }
+  ]
+}
