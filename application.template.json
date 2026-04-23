@@ -23,7 +23,7 @@
   "modules": [
     {
       "name": "mod-oai-pmh",
-      "version": "~6.0.0",
+      "version": "~3.16.0",
       "preRelease": "false"
     },
     {
